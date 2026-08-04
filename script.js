@@ -1,10 +1,10 @@
 const stations = [
-    { id: 1, title: "The Main Exhibit", audio: "assets/audio1.mp3" },
-    { id: 2, title: "Ancient Relics", audio: "assets/audio2.mp3" },
-    { id: 3, title: "The Fossil Hall", audio: "assets/audio3.mp3" },
-    { id: 4, title: "Renaissance Art", audio: "assets/audio4.mp3" },
-    { id: 5, title: "The Telescope Wing", audio: "assets/audio5.mp3" },
-    { id: 6, title: "The Grand Finale", audio: "assets/audio6.mp3" }
+    { id: 1, title: "Flood of 1896", audio: "assets/audio1.mp3" },
+    { id: 2, title: "Pontoon Bridge", audio: "assets/audio2.mp3" },
+    { id: 3, title: "Milwaukee Road", audio: "assets/audio3.mp3" },
+    { id: 4, title: "Norht McGregor/Marquette", audio: "assets/audio4.mp3" },
+    { id: 5, title: "Businesses", audio: "assets/audio5.mp3" },
+    { id: 6, title: "Did You Know?", audio: "assets/audio6.mp3" }
 ];
 
 const board = document.getElementById('puzzle-board');
