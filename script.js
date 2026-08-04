@@ -1,10 +1,10 @@
 const stations = [
-    { id: 1, title: "Flood of 1896", audio: "assets/audio1.mp3" },
-    { id: 2, title: "Pontoon Bridge", audio: "assets/audio2.mp3" },
-    { id: 3, title: "Milwaukee Road", audio: "assets/audio3.mp3" },
-    { id: 4, title: "Norht McGregor/Marquette", audio: "assets/audio4.mp3" },
-    { id: 5, title: "Businesses", audio: "assets/audio5.mp3" },
-    { id: 6, title: "Did You Know?", audio: "assets/audio6.mp3" }
+    { id: 1, title: "Flood of 1896", audio: "audio1.mp3" },
+    { id: 2, title: "Pontoon Bridge", audio: "audio2.mp3" },
+    { id: 3, title: "Milwaukee Road", audio: "audio3.mp3" },
+    { id: 4, title: "Norht McGregor/Marquette", audio: "audio4.mp3" },
+    { id: 5, title: "Businesses", audio: "audio5.mp3" },
+    { id: 6, title: "Did You Know?", audio: "audio6.mp3" }
 ];
 
 const board = document.getElementById('puzzle-board');
@@ -19,7 +19,7 @@ function createBoard() {
         piece.id = `piece-${i}`;
 
         const img = document.createElement('img');
-        img.src = `assets/piece-${i}.jpg`; 
+        img.src = `piece-${i}.jpg`; 
         img.alt = `Puzzle piece ${i + 1}`;
 
         piece.appendChild(img);
