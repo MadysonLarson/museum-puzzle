@@ -2,7 +2,7 @@ const stations = [
     { id: 1, title: "Flood of 1896", audio: "audio1.mp3" },
     { id: 2, title: "Pontoon Bridge", audio: "audio2.mp3" },
     { id: 3, title: "Milwaukee Road", audio: "audio3.mp3" },
-    { id: 4, title: "Norht McGregor/Marquette", audio: "audio4.mp3" },
+    { id: 4, title: "North McGregor/Marquette", audio: "audio4.mp3" },
     { id: 5, title: "Businesses", audio: "audio5.mp3" },
     { id: 6, title: "Did You Know?", audio: "audio6.mp3" }
 ];
